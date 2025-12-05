@@ -1,0 +1,110 @@
+/* ResumePreview.css - Simple Fixed Version */
+.resume-preview-container {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.4;
+  color: #000000;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+}
+
+/* Header */
+.preview-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.name-title h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 8px 0;
+}
+
+.contact-info {
+  font-size: 14px;
+  color: #666;
+}
+
+.contact-info span {
+  margin: 0 8px;
+}
+
+/* Sections */
+.section-container {
+  margin-bottom: 20px;
+  padding: 10px;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.section h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 4px;
+}
+
+.section-content {
+  margin: 0;
+}
+
+/* Experience & Education Items */
+.item {
+  margin-bottom: 15px;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.item-left {
+  font-weight: bold;
+}
+
+.item-right {
+  color: #666;
+  font-size: 14px;
+}
+
+.item-subtitle {
+  color: #1a1919;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.item-description {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Skills */
+.skills-default {
+  font-size: 14px;
+}
+
+/* Projects */
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.project-link {
+  color: #000000;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+/* Summary */
+.summary-section {
+  margin-bottom: 20px;
+}
+
+.summary-section p {
+  margin: 0;
+  font-size: 14px;
+}
